@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <!-- set the character set -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- first step to a responsive site -->
+        <title>HTML Skeleton</title>
+
+        <!-- FONT AWESOME -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karma" rel="stylesheet">
+
+        <!-- Your styles should be called here -->
+        <link href="style.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+    </head>
+
+    <body>
+        <!-- YOUR CONTENT GOES HERE -->
+        <h1>How to ride the subway when it's not designed for you</h1>
+        <h3>Only one in four stations are made for people with disabilities.<h3>
+        <h4>Text and photographs by <a href="http://graisondangor.com">Graison Dangor</a></h4>
+        <div class="hotspot">
+          <figure>
+          <img src="img/mary-waiting.jpg"/>
+          <figcaption>
+            Mary Kaessinger waits for the B41 bus.
+          </figcaption>
+          </figure>
+          <div id="mary-1" class="spot" data-description="'The closest subway stop that's accessible is about 25 blocks down,' Kaessinger said. 'If I could walk, the one that's closest to me is half a block away.'"></div>
+          <div id="mary-2" class="spot" data-description="Due to the lack of subway stations with elevators, Kaessinger said it takes her roughly twice as long to get anywhere an able-bodied person can."></div>
+        </div>
+
+        <p>The closest subway stop to Mary Kaessinger is one-half block from her apartment in the Ditmas Park neighborhood of Brooklyn.</p>
+
+        <p>But on Friday afternoon, Kaessinger was waiting at a bus stop several blocks away from her home. When the bus came, she would take that 25 blocks further. Only then would she be able to get on the subway&mdash;the closest stop with an elevator</p>
+
+        <p>Kaessinger, 72, has to travel this circuitous route because she has multiple sclerosis. She gets around with the aid of a motorized scooter.</p>
+
+        <p>More than seven out of 10 subway stops in New York City has no elevator, which means people with limited mobility&mdash;like senior citizens and people with disabilities&mdash;can't use the vast majority of the mass transit network that the rest of New Yorkers rely on.</p>
+
+        <p>When Kaessinger, a retired IT worker, moved to New York, she owned a car with a lift to help her get out. But parking in the city was hard. "So I sold it, figuring I'd use the subways."</p>
+
+        <p>She laughed. "Surprise, surprise."</p>
+
+
+        <div class="hotspot">
+          <figure class="caption">
+        <img src="img/mary-swiping.jpg">
+          <figcaption>
+            Kaessinger swipes her MetroCard at the Brooklyn College station.
+          </figcaption>
+          </figure>
+
+        </div>
+
+        <p>New York is a difficult city to get around in a wheelchair or scooter. In an interview with The Guardian, the editor of the website Wheelchair Travel said "I advise people to avoid the subways at all costs."</p>
+
+        <p>“A station may be accessible but the line you want might only be accessible from a platform which can only be reached by steps,"said John Morris. "The level of understanding one must have to navigate it is so high – and even someone who knows the system perfectly can be caught out by a broken elevator. It’s challenging.”</p>
+
+        <div class="hotspot">
+          <figure>
+        <img src="img/mary-gap.jpg">
+          <figcaption>
+            Mary lifts her motorized scooter over the gap between the platform and the subway car.
+          </figcaption>
+        </figure>
+        </div>
+
+        <p>When MTA facilities fail, the consequences can be much more disruptive for people with disabilities. If an elevator is broken, Kaessinger said, she has to get back on the train until she reaches the next stop. That stop may not even be her destination.</p>
+
+        <p>And then there was the time this winter when she was exiting the bus. The platform lift failed partway and she was stuck for an hour until a mechanic came.</p>
+
+        <p>"No, that's not unique at all," said Jess Powers, the communications director at the Center for Independence of the Disabled in New York, the lead plaintiff in a class-action lawsuit filed against the MTA last April. Stories like that are common for people with disabilities, she said.</p>
+
+        <p>The result is more than frustration and lost time. "Transportation is the second-biggest barrier to employment with disabilities," said Powers.</p>
+
+
+        <br>
+
+        <div class="transition">
+        <h4>The subway map looks much more sparse when you can only use the stations with elevators.</h4><h4>How many stations in your borough are accessible?</h4>
+        </div>
+
+        <br>
+
+        <h1>Elevator-accessible stations by borough</h1>
+        <div class="hotspot">
+          <figure>
+          <img src="img/subway-map.jpg"/>
+          <figcaption>
+            <a href="http://web.mta.info/maps/submap.html">New York City subway map</a> (Metropolitan Transportation Authority)
+          </figcaption>
+        </figure>
+          <div id="manhattan" class="spot" data-description="41 of Manhattan's 121 subway stations have elevators."></div>
+          <div id="bronx" class="spot" data-description="12 of the Bronx's 68 subway stations have elevators."></div>
+          <div id="brooklyn" class="spot" data-description="22 of Brooklyn's 157 subway stations have elevators."></div>
+          <div id="queens" class="spot" data-description="19 of Queen's 78 subway stations have elevators."></div>
+          <div id="statenisland" class="spot" data-description="5 of Staten Island's 21 railway stations have elevators."></div>
+        </div>
+
+        <div class="modal">
+          <div class="inner">
+            <a href="#" class="fa fa-times close"></a>
+            <p></p>
+          </div>
+
+        <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Your javascript should be called here -->
+        <script src="main.js"></script>
+    </body>
+
+</html>
